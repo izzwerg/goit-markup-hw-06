@@ -785,6 +785,8 @@ fieldset {
 
 .privacy-container {
   margin-bottom: 24px;
+  display: flex;
+  flex-direction: row;
 }
 
 .modal-privacy {
@@ -797,6 +799,7 @@ fieldset {
   align-items: center;
   height: 16px;
   cursor: pointer;
+  display: flex;
 }
 
 .modal-privacy-check {
@@ -824,6 +827,10 @@ fieldset {
   background-color: var(--pressed-state);
   border: none;
   fill: var(--light);
+}
+
+.modal-privacy-text {
+  flex-basis: calc(100% - 24px);
 }
 
 .privacy-link {
