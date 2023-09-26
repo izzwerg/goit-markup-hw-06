@@ -7,7 +7,7 @@
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
-    padding: 0 15px;
+    padding: 0 16px;
   }
 
   .contacts {
@@ -44,5 +44,22 @@
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
+  }
+
+  .contacts {
+    max-width: 1440px;
+  }
+
+  .footer-contacts {
+    margin-right: 120px;
+  }
+
+  .footer-flex {
+    padding-left: 15px;
+    gap: 0;
+  }
+
+  .footer-social-container {
+    margin-right: 80px;
   }
 }
