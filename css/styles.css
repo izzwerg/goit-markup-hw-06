@@ -264,7 +264,7 @@ fieldset {
 }
 
 .benefits {
-  padding: 120px 0;
+  padding: 96px 0;
   max-width: 1440px;
   margin: auto;
 }
@@ -272,8 +272,9 @@ fieldset {
 .benefits-list {
   list-style-type: none;
   display: flex;
-  justify-content: space-between;
-  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 72px;
 }
 
 .benefits-list-logo-container {
@@ -282,7 +283,7 @@ fieldset {
   padding-top: 24px;
   padding-bottom: 24px;
   margin-bottom: 8px;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   height: 112px;
@@ -296,15 +297,17 @@ fieldset {
 }
 
 .benefits-list-item {
-  width: calc((100% - 48px) / 3);
+  width: 100%;
 }
 
 .benefits-list-header {
   color: var(--dark);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02;
+  text-transform: capitalize;
   margin-bottom: 8px;
 }
 
@@ -313,6 +316,7 @@ fieldset {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-weight: 500;
 }
 
 .team {

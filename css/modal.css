@@ -10,6 +10,18 @@
     padding: 0 16px;
   }
 
+  .benefits-list {
+    column-gap: 24px;
+  }
+
+  .benefits-list-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .benefits-list-header {
+    text-align: left;
+  }
+
   .portfolio-list-item {
     width: calc((100% - 24px) / 2);
   }
@@ -57,6 +69,33 @@
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
+  }
+
+  .benefits {
+    padding: 120px 0;
+  }
+
+  .benefits-list {
+    gap: 24px;
+    flex-wrap: nowrap;
+  }
+
+  .benefits-list-logo-container {
+    display: flex;
+  }
+
+  .benefits-list-item {
+    width: calc((100% - 48px) / 3);
+  }
+
+  .benefits-list-header {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+
+  .benefits-list-text {
+    font-weight: 400;
   }
 
   .team {
