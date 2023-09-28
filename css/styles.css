@@ -317,8 +317,9 @@ fieldset {
 
 .team {
   background: var(--light);
-  padding: 120px 0;
-  max-width: 1440px;
+  /* padding: 120px 0; */
+  padding: 96px 0;
+  /* max-width: 1440px; */
   margin: auto;
 }
 
@@ -335,8 +336,10 @@ fieldset {
 .team-list {
   list-style-type: none;
   display: flex;
-  justify-content: space-between;
-  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 72px;
+  column-gap: 24px;
 }
 
 .team-list-item {

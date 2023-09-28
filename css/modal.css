@@ -14,6 +14,11 @@
     width: calc((100% - 24px) / 2);
   }
 
+  .team-list {
+    gap: 64px;
+    column-gap: 24px;
+  }
+
   .portfolio-img > img {
     max-height: 100%;
   }
@@ -52,6 +57,16 @@
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
+  }
+
+  .team {
+    padding: 120px 0;
+    max-width: 1440px;
+  }
+
+  .team-list {
+    gap: 24px;
+    flex-wrap: nowrap;
   }
 
   .portfolio {
