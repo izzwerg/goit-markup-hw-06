@@ -321,9 +321,7 @@ fieldset {
 
 .team {
   background: var(--light);
-  /* padding: 120px 0; */
   padding: 96px 0;
-  /* max-width: 1440px; */
   margin: auto;
 }
 
