@@ -403,8 +403,8 @@ fieldset {
 }
 
 .portfolio {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
   max-width: 1440px;
   margin: auto;
 }
@@ -427,7 +427,6 @@ fieldset {
 }
 .portfolio-list-item {
   border: 1px solid var(--accent);
-  width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -463,6 +462,11 @@ fieldset {
   display: block;
   position: relative;
   overflow: hidden;
+}
+
+.portfolio-img > img {
+  object-fit: cover;
+  max-height: 280px;
 }
 
 .portfolio-overlay {
