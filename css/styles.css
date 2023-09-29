@@ -81,7 +81,8 @@ fieldset {
 .head-all {
   display: flex;
   justify-content: space-between;
-  margin: 0;
+  align-items: center;
+  margin: auto;
 }
 
 .head-nav {
@@ -99,6 +100,8 @@ fieldset {
   text-transform: uppercase;
   text-decoration: none;
   margin-right: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .logo-right {
@@ -169,11 +172,14 @@ fieldset {
   margin: 0;
   display: none;
   align-items: flex-start;
-  gap: 40px;
+  gap: 12px;
 }
 
 .head-address-item {
-  padding: 24px 0;
+  font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.04em;
+  padding: 0;
 }
 
 .head-address-link {
@@ -871,6 +877,6 @@ fieldset {
   color: var(--primary-brand);
 }
 
-.is-open {
+.backdrop.is-open {
   display: flex;
 }

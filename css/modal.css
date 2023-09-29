@@ -6,8 +6,36 @@
 
 @media screen and (min-width: 768px) {
   .container {
+    width: 768px;
     max-width: 768px;
     padding: 0 16px;
+  }
+
+  .head-style {
+    max-width: 768px;
+  }
+
+  .logo {
+    margin-right: 120px;
+  }
+
+  .head-list {
+    display: flex;
+  }
+
+  .head-address {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .head-address-link {
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.04em;
+  }
+
+  .menu-button {
+    display: none;
   }
 
   .hero {
@@ -73,7 +101,27 @@
 
 @media screen and (min-width: 1158px) {
   .container {
+    width: 1158px;
     max-width: 1158px;
+  }
+
+  .head-style {
+    max-width: 1440px;
+  }
+
+  .head-address-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+
+  .logo {
+    margin-right: 76px;
+  }
+
+  .head-address {
+    flex-direction: row;
+    gap: 40px;
   }
 
   .hero {
