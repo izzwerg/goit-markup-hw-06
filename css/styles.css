@@ -189,15 +189,11 @@ fieldset {
 }
 
 .hero {
-  max-width: 1440px;
+  max-width: 320px;
   background: var(--dark);
-  padding-left: 472px;
-  padding-right: 472px;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding: 72px 16px;
   display: flex;
   flex-direction: column;
-  padding: 188px 0;
   justify-content: center;
   background-image: linear-gradient(
       to bottom,
@@ -208,7 +204,6 @@ fieldset {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 1440px;
   margin: auto;
 }
 
