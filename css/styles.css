@@ -60,13 +60,14 @@ fieldset {
 }
 
 .container {
-  /* width: 1158px; */
+  width: 320px;
   padding: 0 16px;
   margin: 0 auto;
 }
 
 .head-style {
-  width: 1440px;
+  width: 100%;
+  max-width: 320px;
   border-bottom: 1px solid var(--accent);
   margin-left: auto;
   margin-right: auto;
@@ -80,6 +81,7 @@ fieldset {
 .head-all {
   display: flex;
   justify-content: space-between;
+  margin: 0;
 }
 
 .head-nav {
@@ -96,7 +98,7 @@ fieldset {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  margin-right: 76px;
+  margin-right: auto;
 }
 
 .logo-right {
@@ -111,7 +113,7 @@ fieldset {
 
 .head-list {
   list-style-type: none;
-  display: flex;
+  display: none;
   align-items: flex-start;
   gap: 40px;
   justify-content: center;
@@ -165,7 +167,7 @@ fieldset {
 .head-address {
   list-style-type: none;
   margin: 0;
-  display: flex;
+  display: none;
   align-items: flex-start;
   gap: 40px;
 }
@@ -186,6 +188,28 @@ fieldset {
 .head-address-link:focus,
 .head-address-link:hover {
   color: var(--pressed-state);
+}
+
+.menu-button {
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px 0;
+  border: none;
+  background-color: transparent;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-button-logo {
+  fill: #2f2f37;
+}
+
+.menu-button:hover > .menu-button-logo,
+.menu-button:focus > .menu-button-logo {
+  fill: var(--pressed-state);
 }
 
 .hero {
