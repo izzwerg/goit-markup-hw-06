@@ -7,11 +7,18 @@
 @media screen and (min-resolution: 192dpi) {
   .hero {
     background-image: linear-gradient(
-      to bottom,
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/hero/Dark-bg_mob@2x.jpg);
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero/Dark-bg_mob@2x.jpg);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .portfolio-img-img {
+    width: 288px;
+    height: 280px;
   }
 }
 
@@ -53,11 +60,11 @@
     width: 768px;
     padding: 112px 136px;
     background-image: linear-gradient(
-      to bottom,
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/hero/Dark-bg_tab.jpg);
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero/Dark-bg_tab.jpg);
   }
 
   .benefits-list {
@@ -74,6 +81,11 @@
 
   .portfolio-list-item {
     width: calc((100% - 24px) / 2);
+  }
+
+  .portfolio-img-img {
+    width: 356px;
+    height: 300px;
   }
 
   .team-list {
@@ -119,14 +131,13 @@
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .hero {
     background-image: linear-gradient(
-      to bottom,
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/hero/Dark-bg_tab@2x.jpg);
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero/Dark-bg_tab@2x.jpg);
   }
 }
-
 
 @media screen and (min-width: 1158px) {
   .container {
@@ -157,11 +168,11 @@
     width: 1440px;
     padding: 188px 0;
     background-image: linear-gradient(
-      to bottom,
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/hero/Dark-bg_desk.jpg);
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero/Dark-bg_desk.jpg);
   }
 
   .benefits {
@@ -210,6 +221,11 @@
     width: calc((100% - 48px) / 3);
   }
 
+  .portfolio-img-img {
+    width: 360px;
+    height: 300px;
+  }
+
   .contacts {
     width: 1440px;
   }
@@ -231,10 +247,10 @@
 @media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
   .hero {
     background-image: linear-gradient(
-      to bottom,
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/hero/Dark-bg_desk@2x.jpg);
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero/Dark-bg_desk@2x.jpg);
   }
 }
