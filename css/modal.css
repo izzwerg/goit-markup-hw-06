@@ -165,7 +165,8 @@
   }
 
   .hero {
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
     padding: 188px 0;
     background-image: linear-gradient(
         to bottom,
@@ -227,7 +228,8 @@
   }
 
   .contacts {
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
   }
 
   .footer-contacts {
