@@ -11,6 +11,10 @@
   --modal-background: #fcfcfc;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h1,
 h2,
 h3,
@@ -235,7 +239,7 @@ fieldset {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
+    url(../images/bg/people-office\ 1_desk.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
