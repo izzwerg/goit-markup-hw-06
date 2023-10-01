@@ -38,8 +38,12 @@
     display: none;
   }
 
+  .main-style {
+    width: 768px;
+  }
+
   .hero {
-    max-width: 768px;
+    width: 768px;
     padding: 112px 136px;
   }
 
@@ -69,7 +73,7 @@
   }
 
   .contacts {
-    width: 768 px;
+    width: 768px;
   }
 
   .footer-flex {
@@ -124,8 +128,12 @@
     gap: 40px;
   }
 
+  .main-style {
+    width: 1440px;
+  }
+
   .hero {
-    max-width: 1440px;
+    width: 1440px;
     padding: 188px 0;
   }
 
@@ -176,7 +184,7 @@
   }
 
   .contacts {
-    max-width: 1440px;
+    width: 1440px;
   }
 
   .footer-contacts {
